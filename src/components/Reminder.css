@@ -1,0 +1,96 @@
+body{
+    background-color:  #020631;
+}
+.app {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+  }
+.heading{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 140px;
+}
+.para{
+    color: aliceblue;
+    text-align: center;
+    margin: 80px;
+}
+.input{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.app .input {
+    margin-top: 0.8em;
+    width: 20em;
+    height: 2em;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    padding: 5px;
+    margin-left: 50px
+  }
+  .app .input input {
+    width: 100%;
+    height: 1.6em;
+    border-color: transparent;
+    outline-color: transparent;
+    font-weight: bold;
+    font-size: medium;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+  }
+  .addbtn{
+    background-color:cyan;
+    cursor: pointer;
+    width: 6em;
+    height: 2em;
+    border-radius: 6px;
+    box-shadow: 0 0 5px cyan,0 0 25px cyan;
+    border: 3px;
+
+  }
+  button:hover{  box-shadow: 0 0 5px cyan,0 0 25px cyan
+    ,0 0 50px cyan, 0 0 100px cyan, 0 0 500px cyan;
+
+  }
+  .list{
+    list-style: none;
+ 
+    
+  }
+  .list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f7f7f7;
+    border: 1px solid #cccc;
+    padding: 10px;
+    margin-top: 50px;
+    width: 20em;
+    margin-left: 42px;
+    border-radius: 6px;
+    
+
+
+  }
+  .deletebtn{
+    background-color: red;
+    width: 4em;
+    height: 2em;
+    border: none;
+    cursor: pointer;
+    box-shadow:0 0 5px red,0 0 25px red;
+    border-radius: 6px;
+  }
+  .deletebtn:hover{
+    box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red, 0 0 100px red;
+  }
+ 
+    
